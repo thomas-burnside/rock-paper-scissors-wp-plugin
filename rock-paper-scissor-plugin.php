@@ -41,7 +41,7 @@ function rock_paper_scissors_shortcode() {
             <button id="paper">&#x1f590</button>
             <button id="scissors">&#x270c</button>
         </div>
-        <p id="result">You won!</p>
+        <p id="result"></p>
         <p id="scores">
             Your score: <span id="user-score">0</span>
             Computer's score: <span id="computer-score">0</span></p>
