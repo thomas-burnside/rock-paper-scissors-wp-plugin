@@ -1,0 +1,56 @@
+.et_pb_code_0 {
+    background: none !important; /* Remove any background */
+    background-color: transparent !important; /* Force transparency */
+    box-shadow: none !important; /* Remove any default shadow */
+    border: none !important; /* Remove border if present */
+    padding: 0 !important; /* Reset padding if necessary */
+}
+
+.game{
+    background-color: white;
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.2);
+    max-width: 600px;
+    min-width: 400px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.game h1{
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.game .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.game button {
+    border: 2px solid #ffbd59;
+    background-color: #0097b2;
+    font-size: 45px;
+    margin: 0 10px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.game #user-score, #computer-score{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.game #user-score{
+    margin-right: 20px;
+}
